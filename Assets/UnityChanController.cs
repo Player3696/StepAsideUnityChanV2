@@ -103,6 +103,7 @@ public class UnityChanController : MonoBehaviour
         //Unityちゃんに速度を与える
         this.myRigidbody.velocity = new Vector3(inputVelocityX, inputVelocityY, velocityZ);
         
+       
         /**
         //Unityちゃんを矢印キーまたはボタンに応じて左右に移動させる（追加）
         if (Input.GetKey(KeyCode.LeftArrow) && -this.movableRange < this.transform.position.x)
